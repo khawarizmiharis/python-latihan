@@ -1,0 +1,15 @@
+data_int = 10
+print("data = ", data_int, "type =", type(data_int))
+
+#mengubah integer ke float
+
+print("=========integer to float========")
+data_int = float(data_int)
+print(data_int, type(data_int))
+
+#mengubah float ke bool
+
+print("=========float to bool========")
+data_float = 9.9
+data_float = bool(data_float)
+print("data =", data_float, "type =", type(data_float)) 
