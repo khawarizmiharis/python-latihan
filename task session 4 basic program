@@ -1,0 +1,11 @@
+x=100  
+y=10
+z=68
+
+print(f"value x is {x} value y is {y} value z is {z}")
+print(format(x, '08b'))
+print(format(y, '08b'))
+print(format(z, '08b'))
+
+print(format(x & y & z, '08b'))
+print(format(x^y, '08b'))
